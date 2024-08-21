@@ -1,0 +1,22 @@
+.active {
+    color: aqua;
+
+}
+
+.nacCont {
+    height: 64px;
+    width: 100%;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.link {
+    margin-right: 15px;
+}
+
+.link:hover {
+    color: rgba(0, 255, 255, 0.13);
+}

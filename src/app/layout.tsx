@@ -1,6 +1,8 @@
 import type {Metadata} from "next";
 import {Montserrat} from "next/font/google";
 import "./globals.css";
+import React from "react";
+import {NavLinks} from "@/app/ui/navLinks/nav-links";
 
 const inter = Montserrat({
     weight: ["400", "500", "600", "700", "800", "900"],
@@ -21,7 +23,17 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="ru">
-        <body className={inter.className}>{children}</body>
+            <body className={inter.className}>
+            <nav>
+                <NavLinks/>
+            </nav>
+            <main>
+                {children}
+            </main>
+            <footer>
+                Footer
+            </footer>
+            </body>
         </html>
     );
 }
