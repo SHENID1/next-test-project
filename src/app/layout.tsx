@@ -4,7 +4,6 @@ import "./globals.css";
 import React from "react";
 import {NavLinks} from "@/app/ui/navLinks/nav-links";
 import FooterComponent from "@/app/ui/footer/footer.component";
-import cl from "./page.module.css"
 
 const inter = Montserrat({
     weight: ["400", "500", "600", "700", "800", "900"],
