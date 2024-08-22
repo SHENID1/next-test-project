@@ -1,11 +1,13 @@
-'use client'
+// 'use client'
 
 import {usePathname} from 'next/navigation'
 import Link from 'next/link'
 import cl from "./style.module.css"
 
+
 export function NavLinks() {
     const pathname = usePathname()
+
 
     return (
         <nav>

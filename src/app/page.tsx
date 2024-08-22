@@ -1,5 +1,16 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: 'Главная',
+    description: 'description крутое описание',
+    openGraph: {
+        title: "title-o",
+        description: "description-o",
+        locale: "ru-RU",
+    }
+}
 
 export default function Home() {
   return (
